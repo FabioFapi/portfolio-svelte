@@ -3,28 +3,28 @@ import type { Education } from '../types';
 
 export const items: Array<Education> = [
 	{
-		degree: 'Bachelor degree of Computer Science',
+		degree: 'ITS-ICT piemonte',
 		description: '',
-		location: 'Tunisia',
+		location: 'Turin, Italy',
 		logo: Assets.Unknown,
 		name: '',
-		organization: 'ISTIC',
-		period: { from: new Date(2020, 0, 1), to: new Date(2022, 5, 1) },
+		organization: 'ITS-ICT',
+		period: { from: new Date(2022, 11, 1), to: new Date(2025, 7, 4) },
 		shortDescription: '',
 		slug: 'dummy-education-item',
-		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'English']
+		subjects: ['React-Native', 'Flutter', 'Swift', 'Dart', 'C#', 'Kotlin', 'Html,css and Javascript', 'English']
 	},
 	{
-		degree: 'PhD of Computer Science',
+		degree: 'Womblab SRL',
 		description: '',
-		location: 'USA',
+		location: 'Turin, Italy',
 		logo: Assets.Unknown,
 		name: '',
-		organization: 'MIT',
-		period: { from: new Date(2023, 0, 1) },
+		organization: 'ITS-ICT',
+		period: { from: new Date(2025, 2, 6) },
 		shortDescription: '',
 		slug: 'dummy-education-item-2',
-		subjects: ['Assembly', 'Rust', 'Computer Architecture', 'Algorithms and Data structures']
+		subjects: ['Sveltekit', 'MongoDB', 'Next.js', 'PostgreSQL']
 	}
 ];
 
